@@ -1,0 +1,510 @@
+/*이미지, 레이아웃 스타일*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.title_wrap{
+    display: flex;
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    background-color: #F2E9D8;
+    z-index: 2;
+    margin: 0;
+}
+.title_cat{
+    position: absolute;
+    top: 136px;
+    left: 1185px;
+    width: 415px;
+    height: 766px;
+    z-index: 2;
+
+}
+.image_logo{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    top: 31px;
+    left : 320px;
+}
+/*텍스트 스타일*/
+.home{
+    position: absolute;
+    text-decoration-line: none;
+    top: 35px;
+    right: 700px;
+    z-index: -2;
+}
+.home:active{
+    color: royalblue;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+.about{
+    position: absolute;
+    text-decoration-line: none;
+    top: 35px;
+    right: 600px;
+}
+.about:active{
+    color: royalblue;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+.support{
+    position: absolute;
+    text-decoration-line: none;
+    top: 35px;
+    right: 500px;
+}
+.support:active{
+    color: royalblue;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+.download{
+    position: absolute;
+    top: 22px;
+    right: 300px;
+    background-color: #D97652;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    text-decoration-line: none;
+    font-weight: 700;
+    line-height: 50px;
+}
+.download:hover{
+    box-shadow: 0 0 20px greenyellow;
+    transition-duration: 0.4s;
+}
+.download:active{
+    box-shadow: 0 0 10px black;
+    transition-duration: 0.1s;
+}
+.download_2{
+    position: absolute;
+    top: 650px;
+    left: 280px;
+    background-color: #D97652;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    text-decoration-line: none;
+    font-weight: 700;
+    line-height: 50px;
+    z-index: 2;
+}
+.download_2:hover{
+    box-shadow: 0 0 20px greenyellow;
+    transition-duration: 0.4s;
+}
+.download_2:active{
+    box-shadow: 0 0 10px black;
+    transition-duration: 0.1s;
+}
+.cat_image1{
+    position: absolute;
+    border-radius: 30px;
+    width: 660px;
+    height: 390px;
+    top: 1060px;
+    left: 320px;
+}
+.infinite_box{
+    position: absolute;
+    width: 1278px;
+    height: 758px;
+    top: 1800px;
+    left: 320px;
+    overflow: scroll;
+    list-style-type: none;
+    float: left;
+}
+.infinite_box::-webkit-scrollbar{
+    display: none;
+}
+.infinite_box img{
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    /*float:left;*/
+    /*line-height: 20px;*/
+}
+.show_more_btn{
+    position: absolute;
+    top: 2778px;
+    left: 860px;
+    width: 143px;
+    height: 50px;
+    color: white;
+    background-color: #D97652;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: none;
+    box-shadow: 3px 3px 3px black;
+}
+.show_more_btn:active{
+    box-shadow: none;
+    transition-duration: 0.3s;
+}
+
+hr{
+    position: absolute;
+    width: 1278px;
+    height: 1px;
+    top: 2916px;
+    left: 320px;
+    color: #C4C4C4;
+}
+.bottom_box{
+    display: block;
+    position: relative;
+    top: 3300px;
+    width: 1920px;
+    height: 340px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bottom_box img{
+    display: block;
+    position: absolute;
+    min-width: 1920px;
+    min-height: 340px;
+    transform:translate( 0, -30%);
+    z-index: -1;
+}
+.copyright{
+    position: absolute;
+    width: 1920px;
+    height: 160px;
+    top: 4159px;
+}
+.bottom_logo{
+    position: absolute;
+    width: 226px;
+    height: 70px;
+    top: 32px;
+    left: 320px;
+}
+.blog{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 58px;
+    left: 1372px;
+}
+.blog:hover{
+    box-shadow: 0 0 10px black;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+.instagram{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 58px;
+    left: 1434px;
+}
+.instagram:hover{
+    box-shadow: 0 0 10px black;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+.facebook{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 58px;
+    left: 1496px;
+}
+.facebook:hover{
+    box-shadow: 0 0 10px black;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+.youtube{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 58px;
+    left: 1558px;
+}
+.youtube:hover{
+    box-shadow: 0 0 10px black;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+.word1{
+    position: absolute;
+    font-size: 48px;
+    top: 304px;
+    left: 280px;
+    width: 750px;
+    height: 120px;
+    z-index: 2;
+}
+.word2{
+    position: absolute;
+    font-size: 16px;
+    top: 500px;
+    left: 280px;
+    width: 420px;
+    height: 86px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.word3{
+    position: absolute;
+    font-size: 36px;
+    top: 1152px;
+    left: 1090px;
+    width: 510px;
+    height: 135px;
+}
+.word4{
+    position: absolute;
+    font-size: 16px;
+    top: 1317px;
+    left: 1090px;
+    width: 510px;
+    height: 40px;
+}
+.word5{
+    position: absolute;
+    font-size: 48px;
+    top: 1570px;
+    left: 523px;
+    width: 875px;
+    height: 60px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #D97652;
+}
+.word6{
+    position: absolute;
+    font-size: 16px;
+    top: 1670px;
+    left: 605px;
+    width: 710px;
+    height: 42px;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+.word7{
+    position: absolute;
+    font-size: 36px;
+    top: 2985px;
+    left: 320px;
+    width: 263px;
+    height: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.word8{
+    position: absolute;
+    font-size: 16px;
+    top: 3065px;
+    left: 320px;
+    width: 395px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.word9{
+    position: absolute;
+    width: 448px;
+    height: 45px;
+    top: 40px;
+    left: 58px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 10px;
+    white-space: nowrap;
+    color: white;
+}
+.word10{
+    position: absolute;
+    width: 490px;
+    height: 36px;
+    top: 100px;
+    left: 58px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.subs_box{
+    position: absolute;
+    width: 1280px;
+    height: 200px;
+    top: 3718px;
+    left: 320px;
+    background-color: #263140;
+    border-radius: 30px;
+}
+.email_box{
+    position: absolute;
+    width: 530px;
+    height: 60px;
+    top: 70px;
+    left: 692px;
+    border-radius: 60px;
+    background-color: white;
+}
+.email{
+    position: absolute;
+    top: 90px;
+    left: 760px;
+    width: 184px;
+    height: 20px;
+    font-size: 16px;
+    color: #767676;
+    font-weight: 400;
+    line-height: 20px;
+    border:none;
+    outline: none;
+}
+.email_icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 88px;
+    left: 720px;
+}
+.subs_btn{
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    top: 75px;
+    left: 1081px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    padding: 15px 29px 15px 29px;
+    z-index: 4;
+    box-shadow: 3px 3px 3px #263140;
+    transition-duration: 0.3s;
+}
+.subs_btn:active{
+    margin-left: 1px;
+    margin-top: 1px;
+    box-shadow: none;
+}
+.hover_box{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 4090px;
+    left: 1846px;
+}
+.hover_box img.hover_1{
+    position: absolute;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .3s;
+    box-shadow: 0 0 10px black;
+    border-radius: 100px;
+
+}
+.hover_box:hover img.hover_1{
+    opacity: 1;
+}
+/*modal 스타일 코드*/
+.modal{
+    position: relative;
+    display: none;
+    justify-content: center;
+    top: -500px;
+    left: 370px;
+    width: 600px;
+    height: 400px;
+    z-index: 2;
+    border-radius: 60px;
+}
+.modal_bg{
+    position: absolute;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.modal_cat{
+    position: absolute;
+    top: 40px;
+}
+.modal_word{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 212px;
+    height: 48px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #D97652;
+}
+.modal_word2{
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.close_modal{
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    z-index: 4;
+    box-shadow: 3px 3px 3px #263140;
+    transition-duration: 0.3s;
+}
+.close_modal:active{
+    margin-left: 1px;
+    margin-top: 1px;
+    box-shadow: none;
+}
+/*modal 스타일 코드*/
+
+
+/*kakao Map API Style*/
+#map{
+    position: relative;
+    width: 1278px;
+    height: 520px;
+    top: 3118px;
+    left: 320px;
+    border-radius: 12px;
+}
