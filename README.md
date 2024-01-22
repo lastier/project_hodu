@@ -18,10 +18,10 @@
 - Show more 버튼을 눌렀을 때 이미지를 n개씩 무한로딩 해오는 기능 구현하기
 - Subscribe 버튼을 눌렀을 때 작은 modal 창이 팝업으로 나타나고 Thank you! 버튼을 누르면 닫히는 기능 구현하기
 
-  ## 프로젝트 구조
-  - HTML : 홈페이지 틀 구현
-  - CSS : 홈페이지 스타일 구현
-  - JavaScript : 무한 스크롤, modal창 기능 구현
+## 프로젝트 구조
+- HTML : 홈페이지 틀 구현
+- CSS : 홈페이지 스타일 구현
+- JavaScript : 무한 스크롤, modal창 기능 구현
   
   <br>
 
