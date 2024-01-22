@@ -1,3 +1,4 @@
+//modal 창 기능 코드
 const modal = document.querySelector(".modal");
 const modal_btn = document.querySelector('.subs_btn');
 
