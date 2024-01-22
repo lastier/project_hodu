@@ -191,7 +191,7 @@ hr{
 .bottom_box{
     display: block;
     position: relative;
-    top: 3300px;
+    top: 2400px;
     width: 1920px;
     height: 340px;
     overflow: hidden;
@@ -529,7 +529,7 @@ strong{
     position: relative;
     width: 1278px;
     height: 520px;
-    top: 3118px;
+    top: 2218px;
     left: 320px;
     border-radius: 12px;
 }
