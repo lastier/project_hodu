@@ -1,4 +1,4 @@
-//카카오맵
+//카카오맵 API
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div
     mapOption = {
         center: new kakao.maps.LatLng(33.445397, 126.571129), // 지도의 중심좌표
