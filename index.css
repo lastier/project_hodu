@@ -1,6 +1,8 @@
 /*이미지, 레이아웃 스타일*/
 html{
     scroll-behavior: smooth;
+    font-family: Pretendard;
+    src:url("fonts/Pretendard-Regular.otf");
 }
 body{
     margin: 0;
