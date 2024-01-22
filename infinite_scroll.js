@@ -2,11 +2,11 @@
 const showMoreBtn = document.querySelector(".show_more_btn");
 const infinite_box = document.querySelector(".infinite_box");
 let pageToFetch = 1;
-let cnt = 0;
+let count = 0;
 let timer;
 
 showMoreBtn.addEventListener('click', function (){
-    if(cnt%2 === 0) {
+    if(count%2 === 0) {
         fetchImages(pageToFetch++);
         window.addEventListener('scroll', infinityScroll);
         showMoreBtn.innerText = 'Stop';
@@ -14,7 +14,7 @@ showMoreBtn.addEventListener('click', function (){
         window.removeEventListener('scroll', infinityScroll);
         showMoreBtn.innerText = 'Show more';
     }
-    cnt++;
+    count++;
 });
 
 async function fetchImages(pageNum) {
