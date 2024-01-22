@@ -1,8 +1,12 @@
 /*이미지, 레이아웃 스타일*/
+@font-face{
+    font-family: Pretendard, Apple SD Gothic Neo;
+    src: url("fonts/Pretendard-Regular.otf") format("otf");
+    src:url("fonts/Pretendard-Regular.woff") format("woff");
+}
 html{
     scroll-behavior: smooth;
     font-family: Pretendard;
-    src:url("fonts/Pretendard-Regular.woff");
 }
 body{
     margin: 0;
