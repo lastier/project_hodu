@@ -1,3 +1,4 @@
+//무한 스크롤 기능
 const showMoreBtn = document.querySelector(".show_more_btn");
 const infinite_box = document.querySelector(".infinite_box");
 let pageToFetch = 1;
