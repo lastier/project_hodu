@@ -7,10 +7,10 @@
 }
 html{
     scroll-behavior: smooth;
-    font-family: Pretendard;
 }
 body{
     margin: 0;
+    font-family: Pretendard;
 }
 .title_wrap{
     display: flex;
@@ -179,6 +179,8 @@ body{
 }
 .continue_word{
     position: absolute;
+    width: 290px;
+    height: 30px;
     top: 2728px;
     left: 825px;
     font-weight: 700;
