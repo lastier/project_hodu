@@ -7,10 +7,15 @@
 }
 html{
     scroll-behavior: smooth;
+    height: 100%;
 }
 body{
     margin: 0;
     font-family: Pretendard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
 }
 .title_wrap{
     display: flex;
@@ -136,32 +141,26 @@ body{
     transition-duration: 0.5s;
 }
 .infinite_box{
-    display: flex;
+    display: block;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
+    align-items: center;
     width: 1278px;
-    height: 800px;
+    height:800px;
     top: 1800px;
-    left: 350px;
+    left: 360px;
     background-color: white;
     overflow: scroll;
 }
-.infinite_box::-webkit-scrollbar{
+.infinite_box::-webkit-scrollbar {
     display: none;
-}
-.infinite_image img:hover{
-    transform: scale(1.2, 1.2);
-    transition-duration: 0.5s;
-}
-.infinite_image img{
-    transition-duration: 0.5s;
 }
 .infinite_image{
     display: flex;
-    gap: 72px;
+    height: 420px;
+    gap: 40px;
 }
-
 .infinite_image > img{
     width: 378px;
     height: 378px;
@@ -187,7 +186,7 @@ body{
 }
 .show_more_btn:active{
     box-shadow: none;
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
 }
 .continue_word{
     position: absolute;
@@ -203,6 +202,7 @@ body{
 
 hr{
     position: absolute;
+    display:flex;
     width: 1278px;
     height: 1px;
     top: 2916px;
@@ -210,7 +210,7 @@ hr{
     color: #C4C4C4;
 }
 .bottom_box{
-    display: block;
+    display: flex;
     position: relative;
     top: 2400px;
     width: 1920px;
@@ -229,12 +229,14 @@ hr{
 }
 .copyright{
     position: absolute;
+    display: flex;
     width: 1920px;
     height: 160px;
     top: 4159px;
 }
 .bottom_logo{
     position: absolute;
+    display: flex;
     width: 226px;
     height: 70px;
     top: 32px;
@@ -242,6 +244,7 @@ hr{
 }
 .blog{
     position: absolute;
+    display: flex;
     width: 42px;
     height: 42px;
     top: 58px;
