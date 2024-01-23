@@ -152,7 +152,7 @@ body{
     top: 1800px;
     left: 360px;
     background-color: white;
-    /*overflow: scroll;*/
+    overflow: scroll;
 }
 .infinite_box::-webkit-scrollbar {
     display: none;
