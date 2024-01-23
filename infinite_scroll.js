@@ -19,7 +19,7 @@ showMoreBtn.addEventListener('click', function (){
 
 async function fetchImages(pageNum) {
     try {
-        const response = await fetch('https://picsum.photos/v2/list?page=' + pageNum + '&limit=12');
+        const response = await fetch('https://picsum.photos/v2/list?page=' + pageNum + '&limit=6');
         if (!response.ok) {
             throw new Error('네트워크 응답에 문제가 있습니다.');
         }
